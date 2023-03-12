@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.main-title {
+  display: flex;
+  font-size: 50px;
+  width: 70%;
+}
+
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.acc__title {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: inset;
+  border-left: 0px;
+  margin: 7px 0px;
+  }
+
+  .acc__mem {
+    margin: 0px 285px;
+  display: none;
+ }
+
+   .acc__title:hover + .acc__mem {
+    display: block;
+    transition: 5s;
+   }
+  
+
+
+
